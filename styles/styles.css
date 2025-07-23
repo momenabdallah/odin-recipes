@@ -16,3 +16,8 @@ h1{
     margin: 0;
 
 }
+
+#home{
+    display: block;
+    margin: 2%;
+}
