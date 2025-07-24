@@ -1,6 +1,7 @@
 body{
     
     background-color: blanchedalmond;
+    
 }
 h1{
     text-align: center;
@@ -8,13 +9,21 @@ h1{
     text-decoration: solid;
 }
 
-.main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height:10vh;
-    margin: 0;
+img{
+    width: 100%;
+    max-width: 400px; /* or any preferred max width */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* center images */
+}
 
+
+.breakfast,
+.lunch,
+.dinner {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* optional: center links horizontally */
 }
 
 #home{
