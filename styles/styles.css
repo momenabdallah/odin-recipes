@@ -15,18 +15,29 @@ img{
     height: auto;
     display: block;
     margin: 0 auto; /* center images */
+    margin-bottom: 16px;
 }
 
 
-.breakfast,
-.lunch,
-.dinner {
+.main {
     display: flex;
     flex-direction: column;
     align-items: center; /* optional: center links horizontally */
 }
 
+.main a{
+    display: inline-block;
+    margin-bottom: 16px; /* vertical space */
+    margin-right: 16px;  /* horizontal space if needed */
+}
+
 #home{
     display: block;
     margin: 2%;
+}
+
+.lunch >a{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* center links horizontally */
 }
